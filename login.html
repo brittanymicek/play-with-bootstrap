@@ -18,35 +18,23 @@
 
     </header>
     <main class="container border">
-        <div class="row">
-            <div class="col" <table class="table">
-                <tr>
-                    <th>
-                        Weekendy
-                    </th>
-                    <th>
-                        Office Hours
-                    </th>
-
-                </tr>
-                <tr>
-                    <td>
-                        Saturday
-                    </td>
-                    <td>
-                        9AM - 11AM Eastern (text if I'm not here)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Sunday
-                    </td>
-                    <td>
-                        10AM - 12PM Eastern (text if I'm not here)
-                    </td>
-                </tr>
-                </table>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
             </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </main>
     <footer class="container">
         <div class="bg-aqua">
